@@ -1,0 +1,24 @@
+
+
+% MSNKPU_LOAD_ERROR loading MS NKPU hooks library failed: %1
+This error message indicates an error during loading the MS NKPU
+hooks library. The details of the error are provided as argument of
+the log message.
+
+% MSNKPU_REQUEST recognized a BITLOCKER unlock query: %1
+This message is printed when the NKPU query was recognized.
+
+%MSNKPU_PROCESS_REQUEST Valid unlock request received: %1
+This message indicates the library has received a valid unlock request.
+
+%MSNKPU_PROCESS_NOPKEY No private key for thumbprint '%1' found
+This message indicates key to handle the request has been found.
+
+%MSNKPU_PROCESS_ERROR An error occurred processing query %1: %2
+This error message indicates an error during processing of a query
+by the MS NKPU hooks library. The client identification information
+from the query and the details of the error are provided as arguments
+of the log message.
+
+%MSNKPU_UNLOAD MS NKPU hooks library has been unloaded
+This info message indicates that the MS NKPU hooks library has been unloaded.
